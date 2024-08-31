@@ -1,6 +1,6 @@
 var rfid=require('node-rfid');
  
 rfid.read(function(err,result){
-     if(err) console.log("Sorry, some hardware error occurred"); //some kind of hardware/wire error
-     console.log(result); //print rfid tag UID
+     if(err) console.error("Sorry, some hardware error occurred: %o", err); //some kind of hardware/wire error
+     console.log("Result: %o", result); //print rfid tag UID
 });
