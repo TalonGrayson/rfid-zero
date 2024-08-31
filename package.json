@@ -1,0 +1,19 @@
+{
+  "name": "rfid-zero",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TalonGrayson/rfid-zero.git"
+  },
+  "author": "TalonGrayson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TalonGrayson/rfid-zero/issues"
+  },
+  "homepage": "https://github.com/TalonGrayson/rfid-zero#readme",
+  "description": ""
+}
