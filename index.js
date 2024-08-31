@@ -1,6 +1,7 @@
 var rfid=require('node-rfid');
  
 rfid.readintime(5000, function(err,result){
+    console.log("Listening to RFID for 5 seconds...");
     if(err) console.error("Sorry, some hardware error occurred: %o", err); //some kind of hardware/wire error
     
     if(result=="timeout"){ 
