@@ -15,5 +15,8 @@
     "url": "https://github.com/TalonGrayson/rfid-zero/issues"
   },
   "homepage": "https://github.com/TalonGrayson/rfid-zero#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "node-rfid": "^1.0.7"
+  }
 }
